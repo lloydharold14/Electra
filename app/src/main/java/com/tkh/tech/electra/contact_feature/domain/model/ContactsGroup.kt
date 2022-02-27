@@ -2,8 +2,8 @@ package com.tkh.tech.electra.contact_feature.domain.model
 
 data class ContactsGroup(
 
-    val groupId: Int? = null,
-    val groupName: String?,
+    val id: Int? = null,
+    val name: String?,
     val contacts: List<Contact>
 
     )
